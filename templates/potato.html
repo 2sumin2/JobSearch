@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Search
+    </title>
+    <style>
+      body {
+        background:linear-gradient(45deg,#d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+      }
+      h1{
+        font-family: Papyrus, fantasy;
+        height:100%; 
+        width:100%; 
+        text-align:center;
+        padding-top: 50px;
+      }
+      form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -250px; 
+        vertical-align:center;    
+        text-align:center;
+        background-color:transparent;
+      }
+      form input{
+        font-family: Lucida Console, monospace;
+        height: 30pt;
+        text-align: center;
+        justify-content: center;
+        background-color:transparent;  
+        font-size: 20pt;
+        width: 470px;
+        border:0 ;
+        border-bottom:3px double;
+      }
+      button {
+        font-family: Lucida Console, monospace;
+        height: 30pt;
+        text-align: center;
+        justify-content: center;
+        background-color:transparent; 
+        background-color: rgba( 255, 255, 255, 0.5 );
+        font-size: 14pt;
+        width: 110px;
+        border-radius: 60% 50% 60% 70%;
+        margin-left:10pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Job Search</h1>
+    <form action="/report" method="get">
+      <input placeholder="Search for a job" required name="word"/>
+      <button>Search</button>
+    </form>
+  </body>
+</html>
